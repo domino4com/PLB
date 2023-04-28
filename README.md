@@ -1,25 +1,45 @@
-<img src="assets/IWA.svg" width=200 align="right">
+<img src="assets/PLB.svg" width=200 align="right">
 
-# IWA - Input Weather A
-This is a Weather Sensor measuring Atmospheric **Temperature** and Relative **Humidity**
+# PLB - Power LiPo 18650 Single Cell
+This provider power and power information from a single cell **18650**
 | Specifications | |
 | --: | :--: |
 | Communication | I²C |
-| I²C Address | 0x44 |
-| ChipSet | Sensirion SHT30-DIS|
-| Datasheet | [.pdf](https://.pdf) |
-| Suggested Arduino Library | [GitHub](https://github.com/) |
-| Temperature Accuracy | ±0.2 °C |
-| Temperature Range | -40 to 125 °C |
-| Humidity Accuracy | ± 2 %RH |
-| Humidity Range | 0 to 100 %RH |
+| I²C Address | 0x36 |
+| ChipSet | Maxim Integrated MAX17048|
+| Datasheet | [.pdf](https://www.analog.com/media/en/technical-documentation/data-sheets/MAX17048-MAX17049.pdf) |
+| Suggested Arduino Library | [GitHub](https://github.com/sparkfun/SparkFun_MAX1704x_Fuel_Gauge_Arduino_Library) |
 
 ## Supported I²C Modes
-- [ ] 100 kbit/s Standard Mode (SM) 
-- [ ] 400 kbit/s	Fast Mode	FM
+- [X] 100 kbit/s Standard Mode (SM) 
+- [X] 400 kbit/s	Fast Mode	FM
 - [ ] 1 Mbit/s	Fast Mode Plus	FM+
 - [ ] 3.4Mbit/s	High Speed Mode	HS
 - [ ] 5 Mbit/s	Ultra Fast Mode	UFM
+
+## Features of MAX17048
+- Precision ±7.5mV/Cell Voltage Measurement
+- ModelGauge Algorithm
+  - Provides Accurate State-of-Charge
+  - Compensates for Temperature/Load Variation
+  - Does Not Accumulate Errors, Unlike Coulomb
+Counters
+  - Eliminates Learning
+  - Eliminates Current-Sense Resistor
+- Ultra-Low Quiescent Current
+  - 3μA Hibernate, 23μA Active
+  - Fuel Gauges in Hibernate Mode
+  - Automatically Enters and Exits Hibernate Mode
+- Reports Charge and Discharge Rate
+- Battery-Insertion Debounce
+  - Best of 16 Samples to Estimate Initial SOC
+- Programmable Reset for Battery Swap
+  - 2.28V to 3.48V Range
+- Configurable Alert Indicator
+  - Low SOC
+  - 1% Change in SOC
+  - Battery Undervoltage/Overvoltage
+  - VRESET Alert
 
 # License: 
 <img src="assets/CC-BY-NC-SA.svg" width=200 align="right">
