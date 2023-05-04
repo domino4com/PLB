@@ -9,6 +9,7 @@ This provider power and power information from a single cell **18650**
 | ChipSet | Maxim Integrated MAX17048|
 | Datasheet | [.pdf](https://www.analog.com/media/en/technical-documentation/data-sheets/MAX17048-MAX17049.pdf) |
 | Suggested Arduino Library | [GitHub](https://github.com/sparkfun/SparkFun_MAX1704x_Fuel_Gauge_Arduino_Library) |
+| Suggested MicroPython Library | [GitHub](https://github.com/adafruit/Adafruit_CircuitPython_MAX1704x)|
 
 ## Supported I²C Modes
 - [X] 100 kbit/s Standard Mode (SM) 
