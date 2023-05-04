@@ -18,6 +18,9 @@ This provider power and power information from a single cell **18650**
 - [ ] 3.4Mbit/s	High Speed Mode	HS
 - [ ] 5 Mbit/s	Ultra Fast Mode	UFM
 
+## Acquiring 18650 Batteries
+> **Note:** There are many 18650 batteries which overstates their capacity. Please consider visiting [18650 Battery Reviews](http://www.lygte-info.dk).
+
 ## Features of MAX17048
 - Precision ±7.5mV/Cell Voltage Measurement
 - ModelGauge Algorithm
