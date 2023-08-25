@@ -2,7 +2,7 @@
 
 [![PlatformIO](https://github.com/domino4com/PLB/actions/workflows/platformio.yml/badge.svg)](https://github.com/domino4com/PLB/actions/workflows/platformio.yml)
 [![Arduino](https://github.com/domino4com/PLB/actions/workflows/arduino.yml/badge.svg)](https://github.com/domino4com/PLB/actions/workflows/arduino.yml)
-!![Spell Check](https://github.com/domino4com/PLB/actions/workflows/spell_check.yml/badge.svg)](https://github.com/domino4com/PLB/actions/workflows/spell_check.yml)
+[![Spell Check](https://github.com/domino4com/PLB/actions/workflows/spell_check.yml/badge.svg)](https://github.com/domino4com/PLB/actions/workflows/spell_check.yml)
 
 # PLB - Power LiPo 18650 Single Cell
 This provider power and power information from a single cell **18650**
