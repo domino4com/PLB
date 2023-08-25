@@ -11,7 +11,7 @@
 #include <PLB.h>
 PLB input;
 float var1, var2;
-char s[] = "Volatge: %.2f, State of Charge: %.2f\n";
+char s[] = "Voltage: %.2f, State of Charge: %.2f\n";
 
 
 void setup() {
